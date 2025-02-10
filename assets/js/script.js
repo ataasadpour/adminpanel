@@ -10,3 +10,10 @@ themebut.addEventListener("click", () => {
         thembody.className = "dark";
     }
 });
+
+// load
+
+window.addEventListener('load', function () {
+    document.querySelector('.loader-wrapper').style.display = 'none';
+    document.querySelector('.main-all').style.display = 'block';
+});
