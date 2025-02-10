@@ -1,0 +1,137 @@
+* {
+    direction: rtl;
+    font-family: Vazirmatn;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --color-accent: #5e6edb;
+    /* رنگ اصلی */
+    --color-primary: #7684e1;
+    /* رنگ هاور */
+    --color-secondary: #4656d5;
+    /* رنگ کلیک */
+}
+
+.light {
+    --color-heading: #212324;
+    --color-default: #303233;
+    --color-background: #f3f4f6;
+}
+
+.dark {
+    --color-heading: #f3f4f6;
+    --color-default: #aab8c5;
+    --color-background: #22282e;
+}
+
+body {
+    background-color: var(--color-background) !important;
+    overflow-x: hidden;
+    color: var(--color-default) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-heading);
+}
+
+
+.white {
+    color: #fff;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+
+
+/* header */
+.header {
+    margin-top: 2%;
+}
+
+.h1-header {
+    font-size: 1.5rem;
+
+}
+
+.icon-header {
+    flex-wrap: nowrap !important;
+    margin-right: 50%;
+    margin-top: 0.4%;
+}
+
+.icon-header ion-icon {
+    font-size: 25px;
+    color: var(--color-default);
+    margin: 0 10px;
+
+}
+
+.search-header {
+    position: relative;
+}
+
+[name="search-outline"] {
+    position: absolute;
+}
+
+.Profile-header img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 8px;
+    margin-top: -6px;
+}
+
+.search-header input {
+    border-radius: 9px;
+    outline: none;
+    border: none;
+    width: 205px;
+    height: 38px;
+    margin-right: 24px;
+    padding-right: 33px;
+    background-color: var(--color-default);
+    color: #fff;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    margin-top: 2px;
+}
+
+[name="search-outline"] {
+    position: absolute;
+    font-size: 25px;
+    right: 14%;
+    color: var(--color-background);
+    top: 19%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (min-width: 414px) and (max-width:576px) */
