@@ -38,7 +38,6 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('theme', body.className);
     }
 
-    // Initialize icons on page load
     updateIcons();
 });
 
