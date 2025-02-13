@@ -341,6 +341,13 @@ h6 {
     .Profile-header {
         margin-left: 6%;
     }
+    .chart-1 {
+        width: 90%;
+        margin: -10px auto;
+        background-color: var(--color-accent-2);
+        border-radius: 16px;
+        padding: 1rem;
+    }
 
     .search-header{
         display: none;
