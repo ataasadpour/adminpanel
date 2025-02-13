@@ -288,6 +288,24 @@ h6 {
 }
 
 
+/* chart1 */
+
+.chart-1 {
+	width: 79%;
+	margin: -10px auto;
+	background-color: var(--color-accent-2);
+	border-radius: 16px;
+	padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
 
 /* 
 *****  risponsive ******
